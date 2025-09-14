@@ -11,6 +11,7 @@ export default function EmojiList({ onSelect, onCloseModal }: Props) {
   const [emoji] = useState<ImageSourcePropType[]>([
     require("../assets/images/stickerPacks/creativity/book.png"),
     require("../assets/images/stickerPacks/creativity/brainstorm.png"),
+    require("../assets/images/stickerPacks/creativity/creativity.png"),
     require("../assets/images/stickerPacks/creativity/creativity1.png"),
     require("../assets/images/stickerPacks/creativity/creativity2.png"),
     require("../assets/images/stickerPacks/creativity/creativity3.png"),
@@ -18,6 +19,7 @@ export default function EmojiList({ onSelect, onCloseModal }: Props) {
     require("../assets/images/stickerPacks/creativity/creativity5.png"),
     require("../assets/images/stickerPacks/creativity/creativity6.png"),
     require("../assets/images/stickerPacks/creativity/creativity7.png"),
+    require("../assets/images/stickerPacks/creativity/creativity8.png"),
     require("../assets/images/stickerPacks/creativity/drawing-tablet.png"),
     require("../assets/images/stickerPacks/creativity/drawing.png"),
     require("../assets/images/stickerPacks/creativity/learning.png"),
@@ -26,6 +28,7 @@ export default function EmojiList({ onSelect, onCloseModal }: Props) {
     require("../assets/images/stickerPacks/creativity/paint.png"),
     require("../assets/images/stickerPacks/creativity/rocket.png"),
     require("../assets/images/stickerPacks/creativity/think-different.png"),
+    require("../assets/images/stickerPacks/creativity/tool.png"),
   ]);
 
   return (
